@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Routes,
+  Switch,
   Route,
   useLocation,
 } from 'react-router-dom';
@@ -19,7 +19,7 @@ const App = () => {
     <>
       <Navbar />
       <AnimatePresence>
-        <Routes location={location} key={location.key}>
+        <Switch location={location} key={location.key}>
           <Route path="/" exact>
             <HomePage />
           </Route>
@@ -35,7 +35,7 @@ const App = () => {
           <Route path="*">
             <NotMatch />
           </Route>
-        </Routes>
+        </Switch>
       </AnimatePresence>
     </>
   );
