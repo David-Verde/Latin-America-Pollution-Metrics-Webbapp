@@ -26,7 +26,7 @@
 }
 
 .row:nth-child(even) {
-  background-color: #d05178;
+  background-color: #000000;
 }
 
 .country:nth-child(2),
@@ -34,20 +34,20 @@
 .country:nth-child(6),
 .country:nth-child(7),
 .country:nth-child(10) {
-  background-color: #d05178;
+  background-color: #282828;
 }
 
 header {
-  background-color: #e35a8a;
+  background-color: #272727;
 }
 
 @media (min-width: 1024px) {
   .country:nth-child(odd) {
-    background-color: #e35a8a;
+    background-color: #020202;
   }
 
   .country:nth-child(even) {
-    background-color: #d05178;
+    background-color: #000000;
   }
 }
 
