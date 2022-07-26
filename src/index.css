@@ -1,27 +1,57 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("./assets/fonts/stylesheet.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* stylelint-disable */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable */
+
+#root {
+  position: relative;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.loader {
+  width: 30px;
+  height: 30px;
+  margin: 80px auto 40px auto;
+  border-radius: 50%;
+  background: #fff;
+  color: #fff;
+  z-index: 100;
+}
+
+.country {
+  border: 1px solid transparent;
+}
+
+.row:nth-child(even) {
+  background-color: #d05178;
+}
+
+.country:nth-child(2),
+.country:nth-child(3),
+.country:nth-child(6),
+.country:nth-child(7),
+.country:nth-child(10) {
+  background-color: #d05178;
+}
+
+header {
+  background-color: #e35a8a;
+}
+
+@media (min-width: 1024px) {
+  .country:nth-child(odd) {
+    background-color: #e35a8a;
+  }
+
+  .country:nth-child(even) {
+    background-color: #d05178;
+  }
+}
+
+.country:hover {
+  box-sizing: border-box;
+  border: 1px solid white;
 }
