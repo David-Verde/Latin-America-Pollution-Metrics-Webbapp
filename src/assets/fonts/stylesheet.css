@@ -1,0 +1,51 @@
+/* stylelint-disable */
+@font-face {
+  font-family: 'Gill Sans';
+  src:
+    url('GillSans-Heavy.woff2') format('woff2'),
+    url('GillSans-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  src:
+    url('GillSans-Medium.woff2') format('woff2'),
+    url('GillSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  src:
+    url('GillSans-Light.woff2') format('woff2'),
+    url('GillSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  src:
+    url('GillSans-Bold.woff2') format('woff2'),
+    url('GillSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  src:
+    url('GillSans.woff2') format('woff2'),
+    url('GillSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* stylelint-enable */
