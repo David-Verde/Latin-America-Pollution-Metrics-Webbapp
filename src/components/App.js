@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { AnimatePresence } from 'framer-motion';
-import Navbar from '../general/Navbar';
+import Navbar from '../header/Navbar';
 import HomePage from './home/HomePage';
 import NotMatch from './home/NotMatch';
 import DetailsPage from './details/DetailsPage';
