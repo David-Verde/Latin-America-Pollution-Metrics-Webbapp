@@ -26,7 +26,7 @@
 }
 
 .row:nth-child(even) {
-  background-color: #000;
+  background-color: #272727;
 }
 
 .country:nth-child(2),
@@ -43,7 +43,7 @@ header {
 
 @media (min-width: 1024px) {
   .country:nth-child(odd) {
-    background-color: #020202;
+    background-color: #272727;
   }
 
   .country:nth-child(even) {

@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        dribble: '#282828',
+        dribble: '#272727',
         head: '#282828',
         category: '#373737',
       },
