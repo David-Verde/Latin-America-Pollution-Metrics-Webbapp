@@ -38,7 +38,8 @@ In this project it was required to build a Latin America Polution Metrics applic
     <img src="/src/dawf.png" alt="Logo">
   </a>
 
-
+### Loom Video
+https://www.loom.com/share/d81eed6b70a2420696866ad9d229b100
 
 ### Built With
 This project was built using these technologies.
