@@ -33,6 +33,9 @@
 ## About The Project
 In this project it was required to build a Latin America Polution Metrics application using React and Redux. The project was split into multiple milestones, and each milestone had functional and technical requirements that needed to be implemented.
 
+### Live Version
+https://62e1913b89672a1fdf8720cd--dulcet-concha-673dcd.netlify.app/#/
+
 ###
  <a href="https://github.com/David-Verde/Latin-America-Polution-Metrics-Webbapp-">
     <img src="/src/dawf.png" alt="Logo">
