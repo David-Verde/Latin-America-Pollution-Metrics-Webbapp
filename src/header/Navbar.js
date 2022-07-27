@@ -49,7 +49,7 @@ const Navbar = () => {
           initial="hidden"
           animate="visible"
         >
-          Latin&#39;s Air Pollution
+          Latinoamerica&#39;s Air Pollution
 
         </motion.p>
       </nav>
