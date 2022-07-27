@@ -108,7 +108,7 @@ Authors
 
 ## 📝 License
 
-This project is [MIT](https://github.com/David-Verde/Bookstore/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/David-Verde/Latin-America-Polution-Metrics-Webbapp-/blob/styling/LICENSE) licensed.
 
 
 
