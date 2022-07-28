@@ -1,0 +1,25 @@
+.loaderWrapper {
+  margin-top: 5rem;
+  background-color: transparent;
+  display: grid;
+  place-items: center;
+}
+
+.loader {
+  border: 16px solid #e3e3e3;
+  border-top: 16px solid #d05178;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
