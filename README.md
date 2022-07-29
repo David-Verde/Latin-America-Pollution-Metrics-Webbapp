@@ -110,6 +110,8 @@ Authors
 - This is My **Twitter**: [![@omarramoun](https://img.shields.io/twitter/follow/omarramoun?label=David16&style=social)](https://twitter.com/UnyieldingOne)
 )
 
+## knowledge
+David Swaka
 ## 📝 License
 
 This project is [MIT](https://github.com/David-Verde/Latin-America-Polution-Metrics-Webbapp-/blob/styling/LICENSE) licensed.
